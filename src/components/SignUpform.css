@@ -1,0 +1,83 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('C:\Users\aviav\Desktop\ReactValidationForm\formik-yup-form\src\components\SignUpAsset\form_bg.jpg.jpeg'); /* Use the image you want for the background */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-container label {
+    /* margin-bottom: 5px; */
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .input-container input {
+    width: 60%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .error {
+    color: #ff4d4f;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #e60058; /* Primary button color */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
