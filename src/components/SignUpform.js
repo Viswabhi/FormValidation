@@ -4,7 +4,6 @@ import * as Yup from 'yup';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './SignUpform.css'; // Import the CSS file
-import formBg from './SignUpAsset/form_bg.jpeg';
 
 
 const SignUpform = () => {
