@@ -32,7 +32,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/react-signup-form.git
+git clone https://github.com/Viswabhi/FormValidation.git
 Navigate to the project directory:
 
 bash
