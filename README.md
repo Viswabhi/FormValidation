@@ -76,6 +76,7 @@ Dependencies
 React: A JavaScript library for building user interfaces.
 Formik: A form management library for React.
 Yup: A JavaScript schema builder for value parsing and validation.
+
 React Toastify: A notification library for React.
 Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
@@ -85,6 +86,8 @@ Create a new branch (feature/your-feature).
 Make your changes.
 Commit your changes (git commit -m 'Add some feature').
 Push to the branch (git push origin feature/your-feature).
+![Uploading image.png…]()
+
 Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
